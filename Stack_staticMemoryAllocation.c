@@ -17,7 +17,7 @@ void insertNodeFromBegin(int x)
     struct Node newNode;
     newNode.data = x;
     newNode.next = NULL;
-    if( (g_firstLocation-11)%MAX_SIZE == 0)
+    if( (g_firstLocation-1)%MAX_SIZE == 0)
     {
         return;// the stack is full cant insert ins it
     }
